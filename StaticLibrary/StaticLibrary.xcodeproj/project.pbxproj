@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CF5FDA1BF1CDE500BB6527 /* StaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00CF5FD91BF1CDE500BB6527 /* StaticLibrary.h */; };
+		00CF5FDC1BF1CDE500BB6527 /* StaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF5FDB1BF1CDE500BB6527 /* StaticLibrary.m */; };
+		00CF5FE41BF1CF5300BB6527 /* Func1.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF5FE31BF1CF5300BB6527 /* Func1.m */; };
+		00CF5FE71BF1CFB800BB6527 /* Func2.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF5FE61BF1CFB800BB6527 /* Func2.m */; };
+		00CF5FEA1BF1CFF500BB6527 /* UILabel+TestColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF5FE91BF1CFF500BB6527 /* UILabel+TestColor.m */; };
+		00CF60341BF1EE0900BB6527 /* Func1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00CF5FE21BF1CF5300BB6527 /* Func1.h */; };
+		00CF60351BF1EE0900BB6527 /* Func2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00CF5FE51BF1CFB800BB6527 /* Func2.h */; };
+		00CF60361BF1EE0900BB6527 /* UILabel+TestColor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00CF5FE81BF1CFF500BB6527 /* UILabel+TestColor.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00CF5FD41BF1CDE500BB6527 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				00CF60341BF1EE0900BB6527 /* Func1.h in CopyFiles */,
+				00CF60351BF1EE0900BB6527 /* Func2.h in CopyFiles */,
+				00CF60361BF1EE0900BB6527 /* UILabel+TestColor.h in CopyFiles */,
+				00CF5FDA1BF1CDE500BB6527 /* StaticLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00CF5FD61BF1CDE500BB6527 /* libStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CF5FD91BF1CDE500BB6527 /* StaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLibrary.h; sourceTree = "<group>"; };
+		00CF5FDB1BF1CDE500BB6527 /* StaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticLibrary.m; sourceTree = "<group>"; };
+		00CF5FE21BF1CF5300BB6527 /* Func1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Func1.h; sourceTree = "<group>"; };
+		00CF5FE31BF1CF5300BB6527 /* Func1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Func1.m; sourceTree = "<group>"; };
+		00CF5FE51BF1CFB800BB6527 /* Func2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Func2.h; sourceTree = "<group>"; };
+		00CF5FE61BF1CFB800BB6527 /* Func2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Func2.m; sourceTree = "<group>"; };
+		00CF5FE81BF1CFF500BB6527 /* UILabel+TestColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TestColor.h"; sourceTree = "<group>"; };
+		00CF5FE91BF1CFF500BB6527 /* UILabel+TestColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TestColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00CF5FD31BF1CDE500BB6527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CF5FCD1BF1CDE500BB6527 = {
+			isa = PBXGroup;
+			children = (
+				00CF5FD81BF1CDE500BB6527 /* StaticLibrary */,
+				00CF5FD71BF1CDE500BB6527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00CF5FD71BF1CDE500BB6527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00CF5FD61BF1CDE500BB6527 /* libStaticLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00CF5FD81BF1CDE500BB6527 /* StaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				00CF5FD91BF1CDE500BB6527 /* StaticLibrary.h */,
+				00CF5FDB1BF1CDE500BB6527 /* StaticLibrary.m */,
+				00CF5FE21BF1CF5300BB6527 /* Func1.h */,
+				00CF5FE31BF1CF5300BB6527 /* Func1.m */,
+				00CF5FE51BF1CFB800BB6527 /* Func2.h */,
+				00CF5FE61BF1CFB800BB6527 /* Func2.m */,
+				00CF5FE81BF1CFF500BB6527 /* UILabel+TestColor.h */,
+				00CF5FE91BF1CFF500BB6527 /* UILabel+TestColor.m */,
+			);
+			path = StaticLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00CF5FD51BF1CDE500BB6527 /* StaticLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CF5FDF1BF1CDE500BB6527 /* Build configuration list for PBXNativeTarget "StaticLibrary" */;
+			buildPhases = (
+				00CF5FD21BF1CDE500BB6527 /* Sources */,
+				00CF5FD31BF1CDE500BB6527 /* Frameworks */,
+				00CF5FD41BF1CDE500BB6527 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticLibrary;
+			productName = StaticLibrary;
+			productReference = 00CF5FD61BF1CDE500BB6527 /* libStaticLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00CF5FCE1BF1CDE500BB6527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "SINOFAKE SINEP";
+				TargetAttributes = {
+					00CF5FD51BF1CDE500BB6527 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 00CF5FD11BF1CDE500BB6527 /* Build configuration list for PBXProject "StaticLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00CF5FCD1BF1CDE500BB6527;
+			productRefGroup = 00CF5FD71BF1CDE500BB6527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00CF5FD51BF1CDE500BB6527 /* StaticLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CF5FD21BF1CDE500BB6527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CF5FE71BF1CFB800BB6527 /* Func2.m in Sources */,
+				00CF5FDC1BF1CDE500BB6527 /* StaticLibrary.m in Sources */,
+				00CF5FEA1BF1CFF500BB6527 /* UILabel+TestColor.m in Sources */,
+				00CF5FE41BF1CF5300BB6527 /* Func1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00CF5FDD1BF1CDE500BB6527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00CF5FDE1BF1CDE500BB6527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00CF5FE01BF1CDE500BB6527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm7s,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		00CF5FE11BF1CDE500BB6527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm7s,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00CF5FD11BF1CDE500BB6527 /* Build configuration list for PBXProject "StaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CF5FDD1BF1CDE500BB6527 /* Debug */,
+				00CF5FDE1BF1CDE500BB6527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CF5FDF1BF1CDE500BB6527 /* Build configuration list for PBXNativeTarget "StaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CF5FE01BF1CDE500BB6527 /* Debug */,
+				00CF5FE11BF1CDE500BB6527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00CF5FCE1BF1CDE500BB6527 /* Project object */;
+}
