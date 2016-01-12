@@ -28,4 +28,4 @@
 
 lipo -create /Users/你的用户名/Desktop/libxxx.armv7.a /Users/你的用户名/Desktop/libxxx.armv7s.a /Users/你的用户名/Desktop/libxxx.i386.a -output /Users/你的用户名/Desktop/libxxx.a
 
-查看所支持的架构：lipo -info libMyStaticLibrary.a
+查看所支持的架构：lipo -info libxxx.a
